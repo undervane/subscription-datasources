@@ -1,0 +1,15 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type AppType {
+  example: String!
+}
+
+type Query {
+  required: Boolean!
+}
+
+type Subscription {
+  triggerListen: AppType!
+}
